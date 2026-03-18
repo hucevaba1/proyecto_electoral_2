@@ -1,0 +1,44 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Variables sensibles
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit local
+.streamlit/secrets.toml
+
+# Logs / temporales
+*.log
+*.tmp
+*.bak
+
+# Si NO quieres subir datos pesados, ignóralos
+# data/raw/
+# data/processed/
+# data/geometrias_municipios/
+
+# Mapas exportados pesados
+ridge_abs_error_map_2021.html
+ridge_error_map_2021.html
+
+# Si sí los necesitas para correr la app en Render,
+# NO pongas esas carpetas aquí.
