@@ -36,9 +36,5 @@ __pycache__/
 # data/processed/
 # data/geometrias_municipios/
 
-# Mapas exportados pesados
-ridge_abs_error_map_2021.html
-ridge_error_map_2021.html
-
 # Si sí los necesitas para correr la app en Render,
 # NO pongas esas carpetas aquí.
